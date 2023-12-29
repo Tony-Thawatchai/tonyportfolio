@@ -29,7 +29,7 @@ function Loader() {
         className="mt-16 h-full flex items-center"
       >
         <Image
-          src={"/logo/logo.svg"}
+          src={"/logo/Logo.svg"}
           width={100}
           height={100}
           alt="profile picture of Tony Thawatchai"
