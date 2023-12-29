@@ -83,7 +83,7 @@ const Navbar = () => {
             spy={true}
             className="cursor-pointer"
           > */}
-          <Link href="/">
+          <Link href="/" onClick={()=>{setNav(false)}}>
             <Image
               src={Logo}
               width={77}
@@ -111,7 +111,7 @@ const Navbar = () => {
         <nav
           className={`${
             nav
-              ? "max-h-max py-8 px-4 xl:py-0 xl:px-0 mt-6 "
+              ? "max-h-max py-8 px-4 xl:py-0 xl:px-0 mt-6 bg-white"
               : "max-h-0 xl:max-h-max"
           } flex flex-col w-full  xl:w-fit
            'xl:bg-white' 
@@ -119,7 +119,7 @@ const Navbar = () => {
            xl:font-medium xl:flex-row xl:gap-x-8 xl:h-max  xl:pb-0 transition-all duration-150 text-center xl:text-left xl:items-center
            text-base xl:text-base xl:normal-case xl:mt-0 `}
         >
-          <Link href={"/projects/"} className="cursor-pointer py-5 hover:bg-tertiary-hover 
+          <Link href={"/projects/"} onClick={()=>{setNav(!nav)}} className="cursor-pointer py-5 hover:bg-tertiary-hover 
             'xl:hover:bg-white'
             hover:font-bold hover:text-[var(--secondary-color)]
             transition-all duration-150 ease-in rounded-lg">Projects</Link>
