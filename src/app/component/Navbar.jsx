@@ -13,7 +13,7 @@ import Link from "next/link";
 // svgs
 // import LogoDesktop from "../../public/assets/logo desktop.svg";
 // import LogoMobile from "../../public/assets/logo mobile.svg";
-import Logo from "../../../public/logo/logo.svg";
+import Logo from "../../../public/logo/Logo.svg";
 
 // icons
 import { BiX } from "react-icons/bi";
