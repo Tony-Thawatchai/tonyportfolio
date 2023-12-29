@@ -18,7 +18,7 @@ function SectionHero() {
         viewport={{ once: true, amount: 0.2 }}
         className="flex-1 gap-2 flex flex-col w-full"
       >
-        <h2>I'm Tony</h2>
+        <h2>I&apos;m Tony</h2>
 
         <h1 className="text-6xl md:text-[90px] ">Full Stack Developer</h1>
 

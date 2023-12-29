@@ -10,6 +10,7 @@ function SectionSingleImg({ content }) {
       {content.imageArticle.map((item, index) => (
         <motion.div
           variants={fadeIn("up", 0.2)}
+          key={index}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.2 }}
