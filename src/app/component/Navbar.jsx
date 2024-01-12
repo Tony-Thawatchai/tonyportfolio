@@ -67,7 +67,7 @@ const Navbar = () => {
       className={`${
         header ? " bg-inherit shadow-md py-4 " : "bg-transparent shadow-none py-4 "
         // header ? "shadow-md py-4 " : "bg-transparent shadow-none py-4 "
-      } 
+      } ${nav ? "bg-[hsl(var(--background))] '!shadow-md'" : ""} 
       fixed right-0 left-0  
       mx-auto z-20 xl:px-8 px-5
       //  'bg-white'
@@ -111,7 +111,7 @@ const Navbar = () => {
         <nav
           className={`${
             nav
-              ? "max-h-max py-8 px-4 xl:py-0 xl:px-0 mt-6 bg-white"
+              ? "max-h-max py-8 px-4 xl:py-0 xl:px-0 mt-6 bg-[--background]"
               : "max-h-0 xl:max-h-max"
           } flex flex-col w-full  xl:w-fit
            'xl:bg-white' 

@@ -75,6 +75,7 @@ function SectionHero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
           initial={{ opacity: 0.5, scale: 0.9 }}
+          // whileHover={{ transform: "translateY(-3.5%)" }}
           className="circle-image "
         >
           <Image
@@ -97,12 +98,14 @@ function SectionHero() {
          animate={{ opacity: 1, scale: 1 }}
          transition={{ duration: 4 }}
          initial={{ opacity: 0, scale: 0.9 }}
+        //  whileHover={{ scale: 0.9 }}
           className="circle-color"
         ></motion.div>
         <motion.div
           animate={{ scale: 1 }}
           transition={{  duration: 3 }}
           initial={{ scale: 0.7 }}
+          // whileHover={{ scale : 0.95 }}
           className="circle-dash"
         ></motion.div>
       </div>

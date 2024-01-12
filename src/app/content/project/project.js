@@ -17,7 +17,7 @@ export const project = [
       "#Learnium #LangaraCollege #WebDevelopment #MobileAppDevelopment #EdTech #LearningJourney",
     ],
     imageMain: `/projects/learnium/heroLearnium.png`,
-    link: "https://www.learnium.app/",
+    link: "https://www.learnium.app",
     imageArticle: [
       "/projects/learnium/feature1.webp",
       "/projects/learnium/feature2.webp",
@@ -28,31 +28,42 @@ export const project = [
     projectType: "Mobile App",
     projectRole: "Full Stack Developer/Project Manager",
     year: "Dec 2023",
-    tool: "React Native, NodeJS, OpenAI API, LangChain, MongoDB, AWS, JWT Token",
+    tool: "React Native, NodeJS, Express.js, OpenAI API, LangChain, MongoDB, AWS, JWT Token",
   },
   {
-    title: "second",
+    title: "Dealicious",
     subtitle:
-      "an AI-Powered mobile app in edTech industry. Learnium simplifies the learning process by transforming textbooks into interactive content, provides a flexible learning schedule, and keeps learners engaged in practice and tests by rewarding their progress.",
+      "Full stack web application, “Dealicious” - a solution for a restaurant to gain more customers through an effective, data-driven referral & loyalty campaign. ",
     description: [
-      "Feature #1 Interactive Content",
-      "Learnium simplifies interactive content creation by allowing users to upload PDFs, paste text, or capture book pages via OCR technology. It scans and generates key topics for focused learning, including quizzes, flashcards, and summaries.",
-      "Feature #2 Dynamic Study Planner",
-      "Learnium tailors study sessions to user’s learning preferences and upcoming exam dates. The study plan is responsive to the learner’s progress and quiz results and covers everything that the learner needs to practice to achieve a certain result.",
+      'I am honored and privileged to receive the "Technical Prowess Award." for my Full stack web application "Dealicious," a powerful solution for restaurants to gain more customers by unlocking the power of referral and loyalty campaigns.'
+,
+      'As a Project manager and Full stack developer, I and my team developed it from scratch in 12 weeks. From interviewing stakeholders, optimizing user experience, designing an intuitive and visually appealing user interface, prototyping, front-end&back-end development, unit testing, and deployment. And now it is live at www.dealicious.site'
+ ,     
+      'Thank you to the panelist who gives us this award and also a piece of valuable advice. Here is a snapshot from the panelist. '
+  ,    
+      '"Great job on the responsiveness of the site. Everything flows smoothly from desktop to mobile." '
+   ,   
+      '"Excellent implementation of chart and query performance. The dashboard contains almost ten charts, but the loading performance was impressive." '
+      ,
+      'We were using Next.js, React.js, Node.js, MongoDB and incorporating libraries/services such as chart.js for data visualization, Twilio for SMS verification, and OpenAI for its generative AI feature.'
+,      
+      'Moreover, we adopt the Agile principle though out our development process.' 
+      ,
+      'I would like to thank Tomoko Okochi, our instructor, who provided us with an incredible journey and insightful industry knowledge.'
+      ,
+      'Most importantly, our team who has been working so hard and going above and beyond to create the best work possible. Nahla Niavarani Pablo Montoya Varela Surbhi Kataria Mario Cesena Edgar Velandia Ziyun Yue'
+
     ],
-    imageMain: "/projects/learnium/feature2.webp",
-    link: "https://www.learnium.app/",
+    imageMain: "/projects/dealicious/dealicious2.png",
+    link: "https://www.dealicious.site",
     imageArticle: [
-      "/projects/learnium/feature1.webp",
-      "/projects/learnium/feature2.webp",
-      "/projects/learnium/feature3.webp",
-      "/projects/learnium/feature4.webp",
-      "/projects/learnium/feature5.webp",
+      "/projects/dealicious/dealicious.png",
+      "/projects/dealicious/dealicious3.jpeg",
     ],
-    projectType: "Mobile App",
+    projectType: "Full Stack Web Application",
     projectRole: "Full Stack Developer/Project Manager",
-    year: "Dec 2023",
-    tool: "React Native, NodeJS, OpenAI API, LangChain, MongoDB, AWS, JWT Token",
+    year: "Aug 2023",
+    tool: "React, Next.js, NodeJS, OpenAI API, Twilio, MongoDB, MaterialUI",
   },
   {
     title: "second",

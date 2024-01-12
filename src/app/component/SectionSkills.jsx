@@ -21,7 +21,7 @@ function SectionSkills() {
             <p>React</p>
             <p>React Native</p>
             <p>Next.js</p>
-            <p>CSS/SASS</p>
+            <p>CSS / SASS</p>
           </div>
         </article>
         <article className="flex flex-col gap-4 col-1">
