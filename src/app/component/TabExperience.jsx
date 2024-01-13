@@ -51,7 +51,7 @@ function TabExperience() {
                     fill="var(--secondary-color)"
                     style={{ display: "inline-block" }}
                   />{" "}
-                  Maintaining the client's website by responding to tickets in a
+                  Maintaining the client&apos;s website by responding to tickets in a
                   timely manner.
                 </li>
                 <li>
@@ -60,7 +60,7 @@ function TabExperience() {
                     style={{ display: "inline-block" }}
                   />{" "}
                   Creating new websites with custom features based on new
-                  clients' requirements.
+                  clients&apos; requirements.
                 </li>
               </ul>
             </div>
