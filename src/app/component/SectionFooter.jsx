@@ -15,7 +15,7 @@ function SectionFooter() {
       viewport={{ once: true, amount: 0.2 }}
       className="flex-1 gap-2 flex flex-col w-full items-center mt-24 mb-24 "
     >
-      <h2 className=" text-center px-5  " >Thank you for visiting. Let's connect!</h2>
+      <h2 className=" text-center px-5  " >Thank you for visiting. Let&apos;s connect!</h2>
       <div className="flex gap-4">
         <Button
           href="www.linkedin.com/in/tony-sa"
