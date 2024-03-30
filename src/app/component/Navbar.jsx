@@ -26,25 +26,6 @@ import { IoMdMenu } from "react-icons/io";
 const Navbar = () => {
   const [header, setHeader] = useState(false);
   const [nav, setNav] = useState(false);
-  // const [desktopMode, setDesktopMode] = useState(false);
-
-  // const desktopMode = useMediaQuery({
-  //   query: "(min-width: 1300px)",
-  // });
-
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     setDesktopMode(window.innerWidth >= 1300);
-  //   };
-  //   handleResize();
-
-  //   window.addEventListener("resize", handleResize);
-
-  //   // Cleanup on component unmount
-  //   return () => {
-  //     window.removeEventListener("resize", handleResize);
-  //   };
-  // }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -64,26 +45,16 @@ const Navbar = () => {
   return (
     // transition animation for header
     <header
-      className={`${
-        header ? " bg-inherit shadow-md py-4 " : "bg-transparent shadow-none py-4 "
-        // header ? "shadow-md py-4 " : "bg-transparent shadow-none py-4 "
-      } ${nav ? "bg-[hsl(var(--background))] '!shadow-md'" : ""} 
-      fixed right-0 left-0  
-      mx-auto z-20 xl:px-8 px-5
-      //  'bg-white'
-        transition-all duration-300`}
+      className={`${header ? "headerOn" : "headerOff"} ${nav ? "navOn " : ""} `}
     >
       <div className=" mx-auto flex flex-col xl:flex-row xl:items-center xl:justify-between xl:max-w-[1300px]">
-        {/* logo */}
         <div className="flex justify-between items-center">
-          {/* logo */}
-          {/* <Link
-            to="/"
-            // smooth={desktopMode}
-            spy={true}
-            className="cursor-pointer"
-          > */}
-          <Link href="/" onClick={()=>{setNav(false)}}>
+          <Link
+            href="/"
+            onClick={() => {
+              setNav(false);
+            }}
+          >
             <Image
               src={Logo}
               width={77}
@@ -109,7 +80,7 @@ const Navbar = () => {
 
         {/* nav */}
         <nav
-          className={`${
+          className={`mainNav ${
             nav
               ? "max-h-max py-8 px-4 xl:py-0 xl:px-0 mt-6 bg-[--background]"
               : "max-h-0 xl:max-h-max"
@@ -124,47 +95,57 @@ const Navbar = () => {
             hover:font-bold hover:text-[var(--secondary-color)]
             transition-all duration-150 ease-in rounded-lg">Projects</Link>
           {/* <LinkScroll
-            className="cursor-pointer navEl py-5 hover:bg-tertiary-hover 
+            className="cursor-pointer py-5 hover:bg-tertiary-hover 
             'xl:hover:bg-white'
             hover:font-bold hover:text-[var(--secondary-color)]
-            transition-all duration-150 ease-in rounded-lg"
+             transition-all duration-150 ease-in rounded-lg"
             to="projects"
             activeClass="active"
-            // smooth={desktopMode}
             smooth={false}
             spy={true}
             onClick={() => setNav(!nav)}
           >
             Projects
           </LinkScroll> */}
-          <LinkScroll
+          <Link
+             href={`/experiences`}
+            onClick={() => {
+              setNav(!nav);
+            }}
+            className="cursor-pointer py-5 hover:bg-tertiary-hover 
+            'xl:hover:bg-white'
+            hover:font-bold hover:text-[var(--secondary-color)]
+            transition-all duration-150 ease-in rounded-lg"
+          >
+            Experiences
+          </Link>
+          {/* <LinkScroll
             className="cursor-pointer py-5 hover:bg-tertiary-hover 
             'xl:hover:bg-white'
             hover:font-bold hover:text-[var(--secondary-color)]
              transition-all duration-150 ease-in rounded-lg"
-            to="aboutus"
+            to="experiences"
             activeClass="active"
-            // smooth={desktopMode}
             smooth={false}
             spy={true}
             onClick={() => setNav(!nav)}
           >
             Experiences
-          </LinkScroll>
-          <LinkScroll
+          </LinkScroll> */}
+          {/* <LinkScroll
             className="cursor-pointer py-5 hover:bg-tertiary-hover 
             'xl:hover:bg-white'
             hover:font-bold hover:text-[var(--secondary-color)]
              transition-all duration-150 ease-in rounded-lg"
-            to="aboutus"
+            to="connect"
             activeClass="active"
             // smooth={desktopMode}
             smooth={false}
             spy={true}
             onClick={() => setNav(!nav)}
           >
-            Contact
-          </LinkScroll>
+            Connect
+          </LinkScroll> */}
         </nav>
       </div>
     </header>
