@@ -5,8 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/variants.js";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-import { Infinity } from "lucide-react";
+
 
 function SectionHero() {
   return (
@@ -95,15 +94,15 @@ function SectionHero() {
           </motion.div> */}
         </motion.div>
         <motion.div
-         animate={{ opacity: 1, scale: 1 }}
-         transition={{ duration: 4 }}
-         initial={{ opacity: 0, scale: 0.9 }}
-        //  whileHover={{ scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 4 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          //  whileHover={{ scale: 0.9 }}
           className="circle-color"
         ></motion.div>
         <motion.div
           animate={{ scale: 1 }}
-          transition={{  duration: 3 }}
+          transition={{ duration: 3 }}
           initial={{ scale: 0.7 }}
           // whileHover={{ scale : 0.95 }}
           className="circle-dash"

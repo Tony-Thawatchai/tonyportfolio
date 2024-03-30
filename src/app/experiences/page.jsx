@@ -1,12 +1,12 @@
 "use client"
 import React from 'react'
-import LayoutProjects from '../layout/LayoutProjects'
+import LayoutExperiences from '../layout/LayoutExperiences'
 import SectionFooter from '../component/SectionFooter'
 
 function page() {
   return (
     <>
-      <LayoutProjects />
+      <LayoutExperiences />
       <SectionFooter />
     </>
   )
