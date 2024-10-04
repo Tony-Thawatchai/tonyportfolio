@@ -31,7 +31,7 @@ function TabExperience() {
       >
         <TabsList className=" sm:basis-1/4 items-start justify-between   sm:flex-col tabList shrink-0 ">
           <TabsTrigger value="sandman" className="tabBtn grow w-full">
-            <p className=" text-base sm:text-xl">Web Developer</p>
+            <p className=" text-base sm:text-xl">Full Stack Developer</p>
           </TabsTrigger>
           <TabsTrigger value="Teacher Assistant" className="tabBtn grow w-full">
             <p className="text-base sm:text-xl">Teacher Assistant</p>
@@ -46,7 +46,7 @@ function TabExperience() {
         <TabsContent value="sandman" className="grow md:mt-0">
           <Card>
             <CardHeader className="px-0 pt-0">
-              <CardTitle>Web Developer</CardTitle>
+              <CardTitle>Full Stack Developer</CardTitle>
               <CardDescription>
                 Sandman Media Inc., Jan 2024 - current, Vancouver, BC
               </CardDescription>
@@ -59,43 +59,35 @@ function TabExperience() {
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Optimize the company&apos;s proprietary applications to
-                    improve database traffic, API cost, and loading performance
-                    by at least 30%, 50%, and 50%.
+                    Developing the financial data software using a job scheduler to optimize third-party data fetching and creating our internal REST API endpoint, resulting in a $1800/year reduction in API cost.  
                   </li>
                   <li>
                     <FaArrowRight
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Developing and maintaining 10 PHP applications used within
-                    the content management system that save company costs by
-                    $2,500/year and reduce application error by at least 25%.
+                    Optimizing the company&apos;s proprietary real-time stock price application by using a job scheduler to efficiently ingest third-party data and creating webhooks to distribute data across 65+ sites, resulting in a 30% cost reduction and 50% page load performance.
                   </li>
                   <li>
                     <FaArrowRight
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Overseeing the database upgrading for 50+ websites.
+                    Building a health check dashboard for shareholder relationship automated software by consolidating separated processes into a unified service, resulting in 0 client complaints. 
                   </li>
                   <li>
                     <FaArrowRight
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Maintaining the client&apos;s website by responding to
-                    tickets within the 8-hour timeline.
+                    Optimizing analytics dashboard feature by implementing pagination and improving data fetching, which results in 25% page load performance 
                   </li>
                   <li>
                     <FaArrowRight
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Developing instant exchange, credits, and payment features
-                    for Parking.Exchange, a company&apos;s new product for
-                    High-rise buildings, resulted in 3 new building signups with
-                    roughly 1,500 users.
+                    Developing the instant checkout, credits system, and payment features for the company&apos;s new product for High-rise buildings using MVC pattern and integrating Stripe API, resulting in 3 new building signups with roughly 1,500 units. 
                   </li>
                 </ul>
               </div>
@@ -167,19 +159,21 @@ function TabExperience() {
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Client list: WHAT IF - Event organizer company,{" "}
+                    Client list: Zab Zaab Thai Restaurant,{" "}
                     <a
                       className="linkUnderline"
-                      href="https://www.whatif.co.th"
+                      href="https://zabzaabthai.com"
+                      target="_blank"
                     >
-                      www.whatif.co.th
+                      zabzaabthai.com
                     </a>{" "}
-                    , Social Enterprise Thailand Association{" "}
+                    , Sawasdee Thai Restaurant{" "}
                     <a
                       className="linkUnderline"
-                      href="https://www.sethailand.org"
+                      href="https://sawasdeethairestaurant.com/"
+                      target="_blank"
                     >
-                      www.sethailand.org
+                      sawasdeethairestaurant.com
                     </a>
                   </li>
                 </ul>

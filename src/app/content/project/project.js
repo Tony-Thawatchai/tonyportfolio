@@ -55,7 +55,7 @@ export const project = [
 
     ],
     imageMain: "/projects/dealicious/dealicious2.png",
-    link: "https://www.dealicious.site",
+    // link: "https://www.dealicious.site",
     imageArticle: [
       "/projects/dealicious/dealicious.png",
       "/projects/dealicious/dealicious3.jpeg",
