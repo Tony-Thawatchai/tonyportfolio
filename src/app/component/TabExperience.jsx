@@ -93,7 +93,7 @@ function TabExperience() {
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Optimizing SEO for clients' websites by implementing best
+                    Optimizing SEO for clients&apos; websites by implementing best
                     practices in meta tags and keywords and monitoring them
                     using Google Search Console, resulting in Avg. Position of
                     1.0.
