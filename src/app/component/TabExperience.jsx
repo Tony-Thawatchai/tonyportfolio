@@ -42,6 +42,9 @@ function TabExperience() {
           <TabsTrigger value="ProjectManager" className="tabBtn grow w-full">
             <p className="text-base sm:text-xl">Project Manager</p>
           </TabsTrigger>
+          <TabsTrigger value="ManagingDirector" className="tabBtn grow w-full">
+            <p className="text-base sm:text-xl">Managing Director</p>
+          </TabsTrigger>
         </TabsList>
         <TabsContent value="sandman" className="grow md:mt-0">
           <Card>
@@ -59,35 +62,52 @@ function TabExperience() {
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Developing the financial data software using a job scheduler to optimize third-party data fetching and creating our internal REST API endpoint, resulting in a $1800/year reduction in API cost.  
+                    Developing the financial data software in PHP using a job
+                    scheduler to efficiently gather third-party data, creating
+                    Restful API endpoint, and building a module to display those
+                    data, resulting in a $1800/year reduction in API cost.
                   </li>
                   <li>
                     <FaArrowRight
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Optimizing the company&apos;s proprietary real-time stock price application by using a job scheduler to efficiently ingest third-party data and creating webhooks to distribute data across 65+ sites, resulting in a 30% cost reduction and 50% page load performance.
+                    Optimizing the company&apos;s proprietary real-time stock
+                    price application by using CRON job to efficiently ingest
+                    third-party data to 65+ MySQL databases using webhooks,
+                    resulting in a 30% cost reduction and 50% page load
+                    performance.
                   </li>
                   <li>
                     <FaArrowRight
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Building a health check dashboard for shareholder relationship automated software by consolidating separated processes into a unified service, resulting in 0 client complaints. 
+                    Building a health check dashboard for shareholder
+                    relationship automated software by consolidating separated
+                    processes into a unified service, resulting in 0 client
+                    complaints.
                   </li>
                   <li>
                     <FaArrowRight
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Optimizing analytics dashboard feature by implementing pagination and improving data fetching, which results in 25% page load performance 
+                    Optimizing SEO for clients&apos; websites by implementing best
+                    practices in meta tags and keywords and monitoring them
+                    using Google Search Console, resulting in Avg. Position of
+                    1.0.
                   </li>
                   <li>
                     <FaArrowRight
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Developing the instant checkout, credits system, and payment features for the company&apos;s new product for High-rise buildings using MVC pattern and integrating Stripe API, resulting in 3 new building signups with roughly 1,500 units. 
+                    Developing the instant checkout, credits system, and payment
+                    features for the company&apos;s new product for High-rise
+                    buildings using MVC pattern and integrating Stripe API,
+                    resulting in 3 new building signups with roughly 1,500
+                    units.
                   </li>
                 </ul>
               </div>
@@ -150,9 +170,9 @@ function TabExperience() {
                       fill="var(--secondary-color)"
                       style={{ display: "inline-block" }}
                     />{" "}
-                    Created and customized a WordPress theme to deliver a
-                    beautiful, responsive website, resulting in 80% of clients
-                    being repeat clients.
+                    Translated design into responsive and interactive web pages
+                    using HTML, CSS, Javascript, and WordPress, resulting in 80%
+                    of clients being repeat clients.
                   </li>
                   <li>
                     <FaArrowRight
@@ -206,6 +226,35 @@ function TabExperience() {
                     create user flow, designing a UX wireframe, and
                     collaborating between the bank and developer, resulting in a
                     successful launch within just 4 weeks timeline.
+                  </li>
+                </ul>
+              </div>
+            </CardContent>
+            {/* <CardFooter>
+              <Button>Save password</Button>
+            </CardFooter> */}
+          </Card>
+        </TabsContent>
+        <TabsContent value="ManagingDirector" className="grow md:mt-0">
+          <Card>
+            <CardHeader className="px-0 pt-0">
+              <CardTitle>Managing Director</CardTitle>
+              <CardDescription>
+                WHY NOT Social Enterprise, Oct 2011 - Aug 2022, Bangkok,
+                Thailand
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-2">
+              <div className="space-y-1 text-xl">
+                <ul className="flex flex-col gap-2">
+                  <li>
+                    <FaArrowRight
+                      fill="var(--secondary-color)"
+                      style={{ display: "inline-block" }}
+                    />{" "}
+                    Managed advertising campaigns with innovative,
+                    efficiency-driven strategies, achieving an average profit
+                    margin of 22%. 
                   </li>
                 </ul>
               </div>
