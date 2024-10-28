@@ -65,30 +65,34 @@ export const project = [
     year: "Aug 2023",
     tool: "React, Next.js, NodeJS, OpenAI API, Twilio, MongoDB, MaterialUI",
   },
-  // {
-  //   title: "second",
-  //   subtitle:
-  //     "an AI-Powered mobile app in edTech industry. Learnium simplifies the learning process by transforming textbooks into interactive content, provides a flexible learning schedule, and keeps learners engaged in practice and tests by rewarding their progress.",
-  //   description: [
-  //     "Feature #1 Interactive Content",
-  //     "Learnium simplifies interactive content creation by allowing users to upload PDFs, paste text, or capture book pages via OCR technology. It scans and generates key topics for focused learning, including quizzes, flashcards, and summaries.",
-  //     "Feature #2 Dynamic Study Planner",
-  //     "Learnium tailors study sessions to user’s learning preferences and upcoming exam dates. The study plan is responsive to the learner’s progress and quiz results and covers everything that the learner needs to practice to achieve a certain result.",
-  //   ],
-  //   imageMain: "/projects/learnium/feature3.webp",
-  //   link: "https://www.learnium.app/",
-  //   imageArticle: [
-  //     "/projects/learnium/feature1.webp",
-  //     "/projects/learnium/feature2.webp",
-  //     "/projects/learnium/feature3.webp",
-  //     "/projects/learnium/feature4.webp",
-  //     "/projects/learnium/feature5.webp",
-  //   ],
-  //   projectType: "Mobile App",
-  //   projectRole: "Full Stack Developer/Project Manager",
-  //   year: "Dec 2023",
-  //   tool: "React Native, NodeJS, OpenAI API, LangChain, MongoDB, AWS, JWT Token",
-  // },
+  {
+    title: "Vancouver Real Estate Sales",
+    subtitle:
+      "Data visualization project for Vancouver real estate sales data from 2023.",
+    description: [
+      "I recently grew my interest in Vancouver real estate market and decided to create a data visualization project using React, Express JS, MapBox, OpenAI, and Langchain.",
+      "I got this dataset for real estate sales in Vancouver from 2023. I designed it to have 4 main sections: Snapshot, Map & Table with filtering and sorting, Trend, and ChatBot.", 
+      "The Snapshot section gives a quick overview of the total transactions, average price, average price per sq.ft, and most/least active month. I create a custom hook to pre-process the data and calculate the average price per sq.ft. for each property type and sort the transaction by month.",
+      "For the Map & Table section, I use MapBox to render the map and customize the popup to show the property details. The table is sortable and filterable by property type, price, and size. I render the marker to only show the property that inside the bounds of the maps to improve the performance. However, I run into a performance issue when the map is zoomed out and the number of markers is too many. Thank to my mentor who give me a feedback to use cluster strategy. By grouping the marker in the nearby area into cluster, this technic improve the performance by night and day.",
+      "The Trend section shows average price per sq.ft for each property type over the year.", 
+      "The ChatBot section is powered by OpenAI and Langchain. I embedded the data to create a vector database for AI to be able to search for the answer. The ChatBot will only give answer based on the provided dataset.",
+      "I'm learning a lot from this project and from constructive feedback from my mentor. I hope to hear more feedback from you so that I can improve it even further. Check it out at https://real-estate-sale-data-dashboard.vercel.app/",
+
+    ],
+    imageMain: "/projects/realestate/realestate-thumbnail.png",
+    link: "https://real-estate-sale-data-dashboard.vercel.app/",
+    imageArticle: [
+      "/projects/realestate/realestate - at a glance.png",
+      "/projects/realestate/realestate - graph.png",
+      "/projects/realestate/realestate - chat1.png",
+      "/projects/realestate/realestate - chat2.png"
+    ],
+    projectType: "Web App",
+    projectRole: "Full Stack Developer",
+    year: "Oct 2024",
+    tool: "React, NodeJS, Express JS, OpenAI API, LangChain, MapBox, Shadcn UI",
+  }
+  // ,
   // {
   //   title: "second",
   //   subtitle:
@@ -112,7 +116,8 @@ export const project = [
   //   projectRole: "Full Stack Developer/Project Manager",
   //   year: "Dec 2023",
   //   tool: "React Native, NodeJS, OpenAI API, LangChain, MongoDB, AWS, JWT Token",
-  // },
+  // }
+  // ,
   // {
   //   title: "second",
   //   subtitle:
