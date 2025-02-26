@@ -159,7 +159,7 @@ function TabExperience() {
             <CardHeader className="px-0 pt-0">
               <CardTitle>Web Developer</CardTitle>
               <CardDescription>
-                Freelance, Apr 2020 - Dec 2023, Vancouver, BC
+                Freelance, Apr 2019 - Dec 2023, Vancouver, BC
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-2">
