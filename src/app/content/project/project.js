@@ -17,7 +17,7 @@ export const project = [
       "#Learnium #LangaraCollege #WebDevelopment #MobileAppDevelopment #EdTech #LearningJourney",
     ],
     imageMain: `/projects/learnium/heroLearnium.png`,
-    link: "https://www.learnium.app",
+    link: "https://learnium-landing.vercel.app/",
     imageArticle: [
       "/projects/learnium/feature1.webp",
       "/projects/learnium/feature2.webp",
